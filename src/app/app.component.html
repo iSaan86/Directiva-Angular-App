@@ -1,0 +1,38 @@
+<section style="text-align: center; 
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+
+  <h1>{{titulo}}</h1>
+
+  <form>
+
+    <input type="text" name="nombre" placeholder="Nombre" [(ngModel)]="nombre"><br /><br />
+
+    <input type="text" name="apellido" placeholder="Apellido" [(ngModel)]="apellido"><br /><br />
+
+    <input type="text" name="cargo" placeholder="Cargo" [(ngModel)]="cargo"><br /><br />
+
+    <input type="submit" value="Registrar" (click)="registrarUsuario()"><br /><br />
+
+  </form>
+
+  <p *ngIf="registrado; else sinRegistrar">{{mensaje}} con el nombre de {{nombre}} {{apellido}} 
+    y tiene el cargo de <span [ngClass]="{paraDirectores:cargo=='director'}">{{cargo}}</span>.</p>
+    <!--Otra manera para una sola condicion de estilo: <span [ngStyle]="{color: cargo=='director' ? 'red' : 'black'}">{{cargo}}</span> -->
+  <ng-template #sinRegistrar>
+
+    <p>No se ha registrado aún. Indique su nombre y apellido.</p>
+
+  </ng-template>
+
+  <ul style="list-style: none;">
+    <!-- Muestro un listado de entradas, el For recorre entradas  
+     y hago un index+1 para numerar cada entrada, a partir de 1  -->
+    <br />
+    <li *ngFor="let entrada of entradas; let i=index"><span style="font-size: larger; font-weight: bold;">
+      {{entrada.titulo}}</span>. Entrada {{i+1}}
+    </li>
+  
+  
+  </ul>
+
+</section>
