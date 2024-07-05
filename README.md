@@ -1,27 +1,25 @@
-# TrabajoDirectivaApp
+# Trabajo Directiva App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.4.
+Este proyecto fue generado con [Angular CLI](https://github.com/angular/angular-cli) version 18.0.4. Como práctica para un curso que estoy realizando.
 
-## Development server
+## Servidor de desarrollo
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Ejecute `ngserve` para un servidor de desarrollo. Navegue hasta `http://localhost:4200/`. La aplicación se recargará automáticamente si cambia alguno de los archivos fuente.
 
-## Code scaffolding
+## Ver en vivo
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+[https://isaan86.github.io/Directiva-Angular-App/](https://isaan86.github.io/Directiva-Angular-App/)
 
-## Build
+## Tecnologías Utilizadas
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- HTML5
+- CSS3
 
-## Running unit tests
+## Contacto
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Para cualquier pregunta o comentario, no dudes en contactarme:
 
-## Running end-to-end tests
+- Nombre: Alexandra Ferrera Arenas
+- Perfil de Linkedin: https://www.linkedin.com/in/alexandra-ferrera-arenas/
+- Correo Electrónico: sandraferreraarenas@gmail.com
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
