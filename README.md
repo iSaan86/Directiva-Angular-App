@@ -1,4 +1,4 @@
-# Trabajo Directiva App
+## Trabajo Directiva App
 
 Este proyecto fue generado con [Angular CLI](https://github.com/angular/angular-cli) version 18.0.4. Como práctica para un curso que estoy realizando.
 
@@ -22,4 +22,3 @@ Para cualquier pregunta o comentario, no dudes en contactarme:
 - Nombre: Alexandra Ferrera Arenas
 - Perfil de Linkedin: https://www.linkedin.com/in/alexandra-ferrera-arenas/
 - Correo Electrónico: sandraferreraarenas@gmail.com
-
